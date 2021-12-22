@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.controller;
+package com.voltage.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -34,15 +34,15 @@ import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.preference.PreferenceManager;
 
-import com.crdroid.updater.R;
-import com.crdroid.updater.UpdaterReceiver;
-import com.crdroid.updater.UpdatesActivity;
-import com.crdroid.updater.misc.BuildInfoUtils;
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.StringGenerator;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.voltage.updater.R;
+import com.voltage.updater.UpdaterReceiver;
+import com.voltage.updater.UpdatesActivity;
+import com.voltage.updater.misc.BuildInfoUtils;
+import com.voltage.updater.misc.Constants;
+import com.voltage.updater.misc.StringGenerator;
+import com.voltage.updater.misc.Utils;
+import com.voltage.updater.model.UpdateInfo;
+import com.voltage.updater.model.UpdateStatus;
 
 import java.io.IOException;
 import java.text.DateFormat;

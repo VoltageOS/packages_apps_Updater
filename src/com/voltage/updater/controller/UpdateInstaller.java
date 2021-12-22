@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.controller;
+package com.voltage.updater.controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,11 +23,11 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.FileUtils;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.voltage.updater.misc.Constants;
+import com.voltage.updater.misc.FileUtils;
+import com.voltage.updater.misc.Utils;
+import com.voltage.updater.model.UpdateInfo;
+import com.voltage.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

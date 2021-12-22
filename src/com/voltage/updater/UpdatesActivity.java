@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater;
+package com.voltage.updater;
 
 import android.app.Activity;
 import android.app.UiModeManager;
@@ -60,17 +60,17 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import com.crdroid.updater.controller.UpdaterController;
-import com.crdroid.updater.controller.UpdaterService;
-import com.crdroid.updater.download.DownloadClient;
-import com.crdroid.updater.misc.BuildInfoUtils;
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.FileUtils;
-import com.crdroid.updater.misc.StringGenerator;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.Update;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.voltage.updater.controller.UpdaterController;
+import com.voltage.updater.controller.UpdaterService;
+import com.voltage.updater.download.DownloadClient;
+import com.voltage.updater.misc.BuildInfoUtils;
+import com.voltage.updater.misc.Constants;
+import com.voltage.updater.misc.FileUtils;
+import com.voltage.updater.misc.StringGenerator;
+import com.voltage.updater.misc.Utils;
+import com.voltage.updater.model.Update;
+import com.voltage.updater.model.UpdateInfo;
+import com.voltage.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

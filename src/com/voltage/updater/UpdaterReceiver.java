@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater;
+package com.voltage.updater;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.SystemProperties;
 import androidx.core.app.NotificationCompat;
 import androidx.preference.PreferenceManager;
 
-import com.crdroid.updater.misc.BuildInfoUtils;
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.StringGenerator;
+import com.voltage.updater.misc.BuildInfoUtils;
+import com.voltage.updater.misc.Constants;
+import com.voltage.updater.misc.StringGenerator;
 
 import java.text.DateFormat;
 
 public class UpdaterReceiver extends BroadcastReceiver {
 
     public static final String ACTION_INSTALL_REBOOT =
-            "com.crdroid.updater.action.INSTALL_REBOOT";
+            "com.voltage.updater.action.INSTALL_REBOOT";
 
     private static final String INSTALL_ERROR_NOTIFICATION_CHANNEL =
             "install_error_notification_channel";
