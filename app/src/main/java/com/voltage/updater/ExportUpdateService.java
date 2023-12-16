@@ -157,7 +157,7 @@ public class ExportUpdateService extends Service {
             }
         };
 
-        startForeground(NOTIFICATION_ID, notificationBuilder.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED);
+        startForeground(NOTIFICATION_ID, notificationBuilder.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE);
         notificationManager.notify(NOTIFICATION_ID, notificationBuilder.build());
 
         Runnable runnableComplete = () -> {

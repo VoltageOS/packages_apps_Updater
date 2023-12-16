@@ -276,7 +276,7 @@ public class UpdaterService extends Service {
                 mNotificationBuilder.setTicker(text);
                 mNotificationBuilder.setOngoing(true);
                 mNotificationBuilder.setAutoCancel(false);
-                startForeground(NOTIFICATION_ID, mNotificationBuilder.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED);
+                startForeground(NOTIFICATION_ID, mNotificationBuilder.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE);
                 mNotificationManager.notify(NOTIFICATION_ID, mNotificationBuilder.build());
                 break;
             }
@@ -391,7 +391,7 @@ public class UpdaterService extends Service {
                 mNotificationBuilder.setTicker(text);
                 mNotificationBuilder.setOngoing(true);
                 mNotificationBuilder.setAutoCancel(false);
-                startForeground(NOTIFICATION_ID, mNotificationBuilder.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED);
+                startForeground(NOTIFICATION_ID, mNotificationBuilder.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE);
                 mNotificationManager.notify(NOTIFICATION_ID, mNotificationBuilder.build());
                 break;
             }
