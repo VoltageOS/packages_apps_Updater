@@ -295,7 +295,11 @@ class ABUpdateInstaller {
     }
 
     public void setPerformanceMode(boolean enable) {
-        mUpdateEngine.setPerformanceMode(enable);
+	    try {
+        	mUpdateEngine.setPerformanceMode(enable);
+	    } catch (ServiceSpecificException e) {
+        Log.e(TAG, "Failed to set performance mode", e);
+	    }
     }
 
     public void suspend() {
